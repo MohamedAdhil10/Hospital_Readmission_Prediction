@@ -73,17 +73,17 @@ The dataset is cleaned, standardized, and transformed for predictive modeling.
 
 Hospital-Readmission-Prediction
 │
-├── hospital_readmission_analysis.ipynb   # Main ML pipeline code
-├── Hospital_Readmission_Dashboard.pbix   # Power BI dashboard file
-├── hospital_readmissions.csv             # Raw dataset 
-├── shap_summary.png                   # SHAP feature importance visualization
-├── feature_importance_top40.csv       # Top features by model importance
-├── dashboard_table.csv                # Power BI-ready dataset
-├── readmission_by_specialty.csv       # Specialty-level summary
-├── readmission_by_a1c.csv             # A1C test summary
-├── readmission_by_medication.csv      # Diabetes medication summary
-├── readmission_by_diag.csv            # Diagnosis summary
-├── best_rf_readmit_corrected.pkl      # Trained Random Forest model
+├── 01_hospital_readmission_analysis.ipynb   # Main ML pipeline code
+├── 02_Hospital_Readmission_Dashboard.pbix   # Power BI dashboard file
+├── 03_hospital_readmissions.csv             # Raw dataset 
+├── 04_shap_summary.png                   # SHAP feature importance visualization
+├── 05_feature_importance_top40.csv       # Top features by model importance
+├── 06_dashboard_table.csv                # Power BI-ready dataset
+├── 07_readmission_by_specialty.csv       # Specialty-level summary
+├── 08_readmission_by_a1c.csv             # A1C test summary
+├── 09_readmission_by_medication.csv      # Diabetes medication summary
+├── 10_readmission_by_diag.csv            # Diagnosis summary
+├── 11_best_rf_readmit_corrected.pkl      # Trained Random Forest model
 └── README.md                          # Project documentation
 
 ````
