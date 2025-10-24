@@ -1,4 +1,4 @@
-# Hospital Readmission Prediction & Power BI Dashboard
+# Hospital Readmission Prediction
 
 ---
 
@@ -157,7 +157,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn shap joblib xgboost cat
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric             | Score |
 | :----------------- | :---: |
@@ -166,6 +166,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn shap joblib xgboost cat
 | Accuracy           | ~0.61 |
 | Precision          | ~0.60 |
 | Recall             | ~0.61 |
+
+---
+
+## Model File
+
+* The trained model file **best_rf_readmit_corrected.pkl** is not included in this repository due to file size limitations.
+* To reproduce the model, simply run all cells in the Jupyter notebook hospital_readmission_analysis.ipynb.
+* This will retrain the Random Forest model and generate the .pkl file automatically during execution.
 
 ---
 
